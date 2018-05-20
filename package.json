@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "node server",
+    "build": "node ./node_modules/webpack-cli/bin/webpack.js --config ./build/webpack.base.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
